@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: bisque;
+    background: url(https://media1.tenor.com/m/jTs8imWCZuwAAAAd/3d-gifs-artist-clownfish.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-heading {
+    position: relative;
+}
+
+.main-heading h1 {
+    position: relative;
+    top: -240px;
+    left: 370px;
+    font-size: 40px;
+    color: rgb(4, 46, 230);
+}
+.login-page {
+    width: 420px;
+    background: transparent;
+    border: 2px solid gray;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 325px;
+}
+
+.login-page h2 {
+    color: rgba(0, 0, 0, 0.833);
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.login-page .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 92%;
+    height: 100%;
+    margin-left: 17px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.input-box input::placeholder {
+    color: whitesmoke;
+}
+
+.input-box i {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.login-page .details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.login-page .details:hover {
+    color: #f60000;
+}
+
+.details label input {
+    color: whitesmoke;
+    margin-right: 3px;
+}
+
+.details a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.details a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.btn {
+    width: 92%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 17px;
+    border: none;
+    outline: none;
+    margin-top: -5px;
+    cursor: pointer;
+    font-size: 22px;
+    background-color: rgb(4, 46, 230);
+}
+
+.register p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin: 15px 0 25px;
+    cursor: pointer;
+}
+
+.register p:hover {
+    color: blue;
+}
+
+.register p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.register p a:hover {
+    text-decoration: underline;
+    color: black;
+}
+

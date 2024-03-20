@@ -1,0 +1,1303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #fff;
+}
+
+#header {
+    background-image: url(https://storage.pardot.com/192822/1649853889pUbZbKaZ/Hero_BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 25px 10px 30px;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    padding: 5px 15px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+#d {
+    font-size: 22px;
+    font-weight: 200px;
+    font-family: sans-serif;
+}
+
+.logo span {
+    color: white;
+    font-size: 15px;
+    font-weight: 150px;
+    font-family: monospace;
+}
+
+.logo2 {
+    position: relative;
+    right: 145px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 30px 20px;
+}
+
+nav ul li a {
+    font-size: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 20px;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: red;
+    font-weight: 600;
+}
+
+.btn a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.info {
+    position: relative;
+    top: -43px;
+    left: -74px;
+}
+
+.phn {
+    font-size: 17px;
+    position: relative;
+    right: -40px;
+    top: -15px;
+}
+
+.in {
+    position: relative;
+    top: -43px;
+    left: -105px;
+}
+
+.inf{
+    position: relative;
+    font-size: 17px;
+    right: -40px;
+    top: -18px;
+}
+
+.header-text {
+    margin-top: 5%;
+}
+
+.header-text h4 {
+    font-size: 37px;
+    font-weight: 200;
+    color: yellow;
+}
+
+.header-text h1 {
+    font-size: 66px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.border-line {
+    margin-top: 23px;
+    height: 5px;
+    width: 107px;
+    background-color: yellow;
+    border: none;
+}
+
+.para {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.enr {
+    position: relative;
+    padding: 14px 20px;
+    margin-top: 28px;
+    border-color: red;
+    background-color: rgba(100, 148, 237, 0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+
+.img {
+    margin-top: -48px;
+    margin-bottom: 100px;
+    margin-left: 132px;
+}
+
+aside {
+    float: right;
+    background-color: whitesmoke;
+    padding: 20px;
+    position: relative;
+    height: 350px;
+    width: 600px;
+    margin-top: -520px;
+    margin-right: -20px;
+}
+
+aside h2 {
+    color: rgba(0, 0, 0, 0.927);
+    font-weight: 570;
+    font-size: 30px;
+    padding: 15px;
+    padding-left: 18px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.input-box input {
+    position: relative;
+    height: 40px;
+    padding: 20px;
+    left: 15px;
+    width: 43%;
+    margin: 10px;
+    border-color: white;
+    border: none;
+}
+
+.input-box input::placeholder {
+    color: rgba(0, 0, 0, 0.903);
+    font-weight: 480;
+    font-size: 15px;
+}
+
+.btns {
+    margin-left: 24px;
+    margin-top: 13px;
+    padding: 14px 18px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+#information-section {
+    width: 100%;
+    height: 180px;
+    background-color: whitesmoke;
+    border-color: rgba(245, 222, 179, 0.944);
+    margin-top: -82px;
+}
+
+.course-information {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.information {
+    display: flex;
+    margin: 30px 0px 40px;
+}
+
+.img1 {
+    position: relative;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.img2 {
+    position: relative;
+    margin-left: 180px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.img3 {
+    position: relative;
+    margin-left: 570px;
+    margin-top: -120px;
+    margin-bottom: 51px;
+    height: 50px;
+}
+
+.heading {
+    color: rgba(0, 0, 0, 0.568);
+    margin-top: 20px;
+    margin-left: 7px;
+    font-size: 20px;
+    font-weight: 5px;
+}
+
+.heading strong {
+    color: rgba(0, 0, 255, 0.722);
+    font-size: 24px;
+}
+
+.heading1 {
+    color: rgba(0, 0, 0, 0.584);
+    margin-top: -2px;
+    margin-left: 7px;
+    font-size: 23px;
+    font-weight: 5px;
+}
+
+.heading1 p {
+    color: rgba(0, 0, 255, 0.722);
+    font-size: 22px;
+}
+
+.heading2 {
+    color: rgba(0, 0, 0, 0.618);
+    margin-top: 22px;
+    margin-left: 7px;
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+.heading2 strong {
+    color: rgba(0, 0, 255, 0.722);
+    font-size: 24px;
+}
+
+#content-section {
+    width: 100%;
+    height: 810px;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-1 {
+    flex-basis: 50%;
+}
+
+.h4 {
+    color: rgba(0, 0, 255, 0.577);
+    font-size: 16px;
+    margin-top: 12%;
+}
+
+h1 {
+    margin-top: 3.5%;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+h1 strong {
+    color: rgba(255, 0, 0, 0.626);
+}
+
+.pp {
+    margin-top: 3%;
+    color: rgba(0, 0, 0, 0.784);
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.items {
+    padding: 15px;
+    margin-top: 2%;
+    list-style: none;
+}
+
+.items li {
+    margin-top: -2%;
+    padding: 8px;
+    line-height: 24px;
+    list-style-image: url(https://go.pardot.com/l/192822/2022-04-13/2g48xl/1…/1649851862CoBsJ3p2/Icon_feather_check_circle.png);
+    font-size: 17px;
+}
+
+.items a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.645);
+}
+
+.about-2 {
+    flex-basis: 30%;
+}
+
+.student {
+    position: relative;
+    float: right;
+    margin-top: 70px;
+}
+
+#main-section {
+    width: 100%;
+    height: 1020px;
+    background-color: whitesmoke;
+}
+
+.sub-title {
+    text-align: center;
+    margin-top: 6.5%;
+    color: rgba(0, 0, 0, 0.921);
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    margin-top: 4.5%;
+}
+
+.service-list div {
+    background-color: white;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 18px;
+    color: #000;
+    transition: 0.5s, transform 0.5s;
+}
+
+.head1 {
+    color: black;
+    margin-left: 85px;
+    margin-top: -65px;
+}
+
+.p1 {
+    color: rgba(0, 0, 0, 0.882);
+    margin-left: 85px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+div li {
+    margin-top: 31px;
+    list-style-type: none;
+    list-style-image: url(https://go.pardot.com/l/192822/2022-04-19/2g8bhz/192822/1650351008B1ZKhbEw/check__2_.png);
+}
+
+.left1 {
+    float: right;
+    margin-right: 110px;
+    margin-top: -55px;
+}
+
+.left2 {
+    float: right;
+    margin-right: 60px;
+    margin-top: -20px;
+}
+
+.left4 {
+    margin-top: 20px;
+}
+
+.price {
+    margin-top: 33px;
+}
+
+.price s {
+    font-size: 26px;
+    color: black;
+    font-weight: 600;
+}
+
+.price strong {
+    font-size: 26px;
+    color: blue;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    background-color: red;
+    color: white;
+}
+
+.button1 {
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    background-color: red;
+    color: white;
+}
+
+.left3 {
+    float: right;
+    margin-right: 90px;
+    margin-top: -17px;
+}
+
+.head3 {
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.d3 li {
+    padding-right: 40px;
+    margin: 12px;
+}
+
+.button2 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    margin-left: 12px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.head4 {
+    margin-bottom: 30px;
+}
+
+.button3 {
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+}
+
+.p2 {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#text-section {
+    width: 100%;
+    height: 570px;
+    background-color: rgba(173, 216, 230, 0.396);
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.head-section {
+    flex-basis: 35%;
+}
+
+.imp-heading {
+    color: black;
+    font-size: 50px;
+    margin-top: 72%;
+}
+
+.review {
+    margin-top: -30px;
+    color: black;
+    font-size: 22px;
+    margin-right: 40px;
+    line-height: 40px;
+}
+
+.fafa {
+    margin-top: 70px;
+    margin-left: -70px;
+}
+
+.student-name {
+    color: black;
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+.fafa1 {
+    margin-top: 50px;
+}
+
+#video-section {
+    width: 100%;
+    height: 500px;
+    background-color:rgba(0, 0, 255, 0.785);
+}
+
+.youtube-video {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video {
+    flex-basis: 40%;
+}
+
+.video iframe {
+    border: 10px solid white;
+    margin-top: 14%;
+    border-radius: 5px;
+}
+
+.youtube-content {
+    flex-basis: 50%;
+}
+
+.youtube-info {
+    margin-top: 17%;
+    color: white;
+    line-height: 53.4px;
+    margin-right: 55px;
+    font-size: 43px;
+}
+
+#image-section {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(hsl(0, 0%, 100%), #effafa);
+}
+
+.image-class {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-action {
+    flex-basis: 35%;
+}
+
+.image-place {
+    margin-top: 13%;
+}
+
+.image-heading {
+    flex-basis: 51%;
+    color: black;
+    margin-top: 9%;
+}
+
+.img-sec {
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: 550;
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+.img-para {
+    margin-top: 1%;
+    color: rgba(0, 0, 0, 0.778);
+    line-height: 28px;
+}
+
+.img-para b {
+    color:rgba(0, 0, 255, 0.645);
+}
+
+.img-para strong {
+    color:rgba(0, 0, 255, 0.645);
+}
+
+#course-details {
+    width: 100%;
+    height: 1020px;
+    background-color: #f7f5f5f1;
+}
+
+.black {
+    color: black;
+    font-weight: 900;
+    margin-top: 5%;
+}
+
+.lightblack {
+    color: rgba(0, 0, 0, 0.71);
+    margin-top: 2%;
+    margin-right: 20px;
+}
+
+.row-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tab-titles {
+    flex-basis: 40%;
+}
+
+.tab-titles ul {
+    margin-top: 11%;
+    margin-left: 27px;
+}
+
+.tab-titles li {
+    list-style-image: url(https://go.pardot.com/l/192822/2022-04-13/2g48xw/192822/1649851937Z3zRVT1v/Icon_ionic_ios_arrow_dropright.png);
+}
+
+.tab-links {
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+    width: 57%;
+}
+
+.tab-contents {
+    flex-basis: 50%;
+    margin-top: 3%;
+    margin-right: 30px;
+    height: 600px;
+    background-color:rgba(255, 255, 255, 0.663);
+    border: 2px solid white;
+    display: none;
+}
+
+.tab-contents li {
+    list-style-image: none;
+    color: black;
+    margin-left: 43px;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+.Black {
+    color: black;
+    margin-top: 7%;
+    margin-left: 20px;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+#box-class {
+    width: 70%;
+    height: 220px;
+    background-color: skyblue;
+    position: relative;
+    margin-top: -7%;
+}
+
+.divide-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.divident {
+    flex-basis: 70%;
+}
+
+.heading-black {
+    color: black;
+    margin-top: 8%;
+    line-height: 60px;
+    margin-left: 11%;
+    float: left;
+}
+
+.divident2 {
+    flex-basis: 30%;
+}
+
+.divi-btn {
+    padding: 23px 37px;
+    background-color: skyblue;
+    border: 2.42px solid rgb(169, 5, 5);
+    border-radius: 10px;
+    float: left;
+    margin-top: 26%;
+}
+
+.divi-btn a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(169, 5, 5);
+}
+
+.divi-img {
+    border-radius: 10px;
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-top: 26%;
+}
+
+#footer {
+    width: 100%;
+    height: 400px;
+    background-color: #374550;
+    margin-top: -7.5%;
+    z-index: -1;
+}
+
+.footer-width {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex-basis: 30%;
+}
+
+.footer-para {
+    color: white;
+    margin-top: 51%;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.footer-length {
+    flex-basis: 67%;
+}
+
+.footer-para-main {
+    color: white;
+    margin-top: 23%;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.copyrights {
+    text-align: center;
+    padding-top: 40px;
+    color: #999a9ba1;
+}
+
+/*Add styling for devices between 480px and 768px*/
+@media (max-width: 480px) {
+    #header {
+        padding: 20px 5px 25px; /* Adjust padding as needed */
+    }
+}
+
+/* Media Query for devices with width between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    #header {
+        padding: 20px 10px 25px; /* Adjust padding as needed */
+    }
+}
+
+/* Media Query for devices with width between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #header {
+        padding: 25px 15px 30px; /* Adjust padding as needed */
+    }
+}
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px 5%; /* Adjust padding as needed */
+    }
+    .logo2 {
+        right: 95px; /* Adjust position as needed */
+        font-size: 16px; /* Adjust font size as needed */
+    }
+}
+
+/* Media Query for devices with width between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        padding: 10px 8%; /* Adjust padding as needed */
+    }
+    .logo2 {
+        right: 125px; /* Adjust position as needed */
+        font-size: 18px; /* Adjust font size as needed */
+    }
+}
+
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    nav ul li {
+        margin: 20px 10px; /* Adjust margin as needed */
+    }
+    nav ul li a {
+        font-size: 24px; /* Adjust font size as needed */
+    }
+    .btn {
+        padding: 12px 16px; /* Adjust padding as needed */
+        top: -30px; /* Adjust position as needed */
+        left: 10px; /* Adjust position as needed */
+    }
+    .info {
+        top: -33px; /* Adjust position as needed */
+        left: -48px; /* Adjust position as needed */
+    }
+}
+
+
+
+ Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    .phn {
+        font-size: 15px; /* Adjust font size as needed */
+        right: -30px; /* Adjust position as needed */
+        top: -12px; /* Adjust position as needed */
+    }
+    .in {
+        top: -40px; /* Adjust position as needed */
+        left: -85px; /* Adjust position as needed */
+    }
+    .inf {
+        font-size: 15px; /* Adjust font size as needed */
+        right: -30px; /* Adjust position as needed */
+        top: -15px; /* Adjust position as needed */
+    }
+    .header-text h4 {
+        font-size: 30px; /* Adjust font size as needed */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .header-text h1 {
+        font-size: 50px; /* Adjust font size as needed */
+    }
+    .border-line {
+        width: 80px; /* Adjust width as needed */
+    }
+    .para {
+        font-size: 18px; /* Adjust font size as needed */
+    }
+    .enr {
+        padding: 12px 16px; /* Adjust padding as needed */
+        margin-top: 20px; /* Adjust margin as needed */
+    }
+    .img {
+        margin-left: 90px; /* Adjust margin as needed */
+    }
+}
+
+
+@media (max-width: 480px) {
+    aside {
+        width: 100%; /* Adjust width as needed */
+        margin-top: 0; /* Adjust margin as needed */
+        margin-right: 0; /* Adjust margin as needed */
+        padding: 10px; /* Adjust padding as needed */
+    }
+    aside h2 {
+        font-size: 24px; /* Adjust font size as needed */
+    }
+    .input-box input {
+        width: 80%; /* Adjust width as needed */
+    }
+}
+
+/* Media Query for devices with width between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    aside {
+        width: 90%; /* Adjust width as needed */
+    }
+}
+
+@media (max-width: 480px) {
+    .btns {
+        padding: 12px 16px; /* Adjust padding as needed */
+        margin-left: 12px; /* Adjust margin as needed */
+        margin-top: 10px; /* Adjust margin as needed */
+        font-size: 12px; /* Adjust font size as needed */
+    }
+    #information-section {
+        height: auto; /* Adjust height as needed */
+        margin-top: -60px; /* Adjust margin as needed */
+    }
+    .information {
+        margin: 20px 0px 30px; /* Adjust margin as needed */
+    }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .img1 {
+        margin-top: 10px; /* Adjust margin as needed */
+    }
+    .img2 {
+        margin-left: 120px; /* Adjust margin as needed */
+        margin-top: 10px; /* Adjust margin as needed */
+    }
+    .img3 {
+        margin-left: 360px; /* Adjust margin as needed */
+        margin-top: -80px; /* Adjust margin as needed */
+        margin-bottom: 31px; /* Adjust margin as needed */
+    }
+    .heading {
+        font-size: 18px; /* Adjust font size as needed */
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    .heading1 {
+        font-size: 20px; /* Adjust font size as needed */
+    }
+    .heading1 p {
+        font-size: 18px; /* Adjust font size as needed */
+    }
+    .heading2 {
+        font-size: 18px; /* Adjust font size as needed */
+    }
+}
+
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    .about-1 {
+        flex-basis: 100%; /* Adjust flex basis as needed */
+    }
+    .h4 {
+        font-size: 14px; /* Adjust font size as needed */
+        margin-top: 10%; /* Adjust margin as needed */
+    }
+    h1 {
+        font-size: 30px; /* Adjust font size as needed */
+        margin-top: 2.5%; /* Adjust margin as needed */
+    }
+}
+
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    .about-2 {
+        flex-basis: 100%; /* Adjust flex basis as needed */
+    }
+    .student {
+        float: none; /* Adjust float as needed */
+        margin-top: 40px; /* Adjust margin as needed */
+    }
+}
+
+
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    .sub-title {
+        margin-top: 8%; /* Adjust margin-top as needed */
+    }
+    .service-list {
+        grid-template-columns: auto; /* Adjust grid-template-columns as needed */
+        grid-gap: 15px; /* Adjust grid-gap as needed */
+    }
+    .head1 {
+        margin-left: 45px; /* Adjust margin-left as needed */
+        margin-top: -55px; /* Adjust margin-top as needed */
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    .p1 {
+        margin-left: 45px; /* Adjust margin-left as needed */
+        font-size: 14px; /* Adjust font-size as needed */
+    }
+    .left1, .left2 {
+        float: none; /* Adjust float as needed */
+        margin-right: 0; /* Adjust margin-right as needed */
+        margin-top: 0; /* Adjust margin-top as needed */
+    }
+    .left4 {
+        margin-top: 10px; /* Adjust margin-top as needed */
+    }
+    .price {
+        margin-top: 25px; /* Adjust margin-top as needed */
+    }
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .left3 {
+        margin-right: 50px; /* Adjust margin-right as needed */
+        margin-top: -10px; /* Adjust margin-top as needed */
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .head3 {
+        margin-top: 5px; /* Adjust margin-top as needed */
+        margin-left: 5px; /* Adjust margin-left as needed */
+        margin-bottom: 20px; /* Adjust margin-bottom as needed */
+    }
+    .button2 {
+        margin-bottom: 20px; /* Adjust margin-bottom as needed */
+        margin-top: 5px; /* Adjust margin-top as needed */
+    }
+    .head4 {
+        margin-bottom: 20px; /* Adjust margin-bottom as needed */
+    }
+    .button3 {
+        margin-top: 20px; /* Adjust margin-top as needed */
+    }
+    .p2 {
+        font-size: 15px; /* Adjust font-size as needed */
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .section {
+        flex-wrap: nowrap; /* Adjust flex-wrap as needed */
+        justify-content: center; /* Adjust justify-content as needed */
+    }
+    .head-section {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+    }
+    .imp-heading {
+        font-size: 40px; /* Adjust font-size as needed */
+        margin-top: 10%; /* Adjust margin-top as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    .review {
+        font-size: 18px; /* Adjust font-size as needed */
+        margin-right: 0; /* Adjust margin-right as needed */
+        margin-top: 20px; /* Adjust margin-top as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    .fafa {
+        margin-top: 20px; /* Adjust margin-top as needed */
+        margin-left: 0; /* Adjust margin-left as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .student-name {
+        font-size: 20px; /* Adjust font-size as needed */
+        margin-top: 30px; /* Adjust margin-top as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    .fafa1 {
+        margin-top: 30px; /* Adjust margin-top as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    #video-section {
+        height: 300px; /* Adjust height as needed */
+    }
+    .video {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+    }
+    .video iframe {
+        margin-top: 10%; /* Adjust margin-top as needed */
+    }
+}
+
+
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    .youtube-content {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+    }
+    .youtube-info {
+        margin-top: 10%; /* Adjust margin-top as needed */
+        margin-right: 0; /* Adjust margin-right as needed */
+        font-size: 35px; /* Adjust font-size as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    #image-section {
+        height: 300px; /* Adjust height as needed */
+    }
+    .image-action {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+    }
+    .image-place {
+        margin-top: 10%; /* Adjust margin-top as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .image-heading {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+        text-align: center; /* Adjust text-align as needed */
+        margin-top: 5%; /* Adjust margin-top as needed */
+    }
+    .img-sec {
+        text-align: center; /* Adjust text-align as needed */
+    }
+    .img-para {
+        text-align: center; /* Adjust text-align as needed */
+    }
+}
+
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    .black {
+        margin-top: 3%; /* Adjust margin-top as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    .lightblack {
+        text-align: center; /* Adjust text-align as needed */
+        margin-right: 0; /* Adjust margin-right as needed */
+    }
+    .row-section {
+        flex-direction: column; /* Adjust flex-direction as needed */
+    }
+    .tab-titles {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    .tab-titles ul {
+        margin-top: 5%; /* Adjust margin-top as needed */
+        margin-left: 0; /* Adjust margin-left as needed */
+    }
+}
+
+
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    .tab-links {
+        text-align: center; /* Adjust text-align as needed */
+    }
+    .tab-contents {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+        margin-top: 5%; /* Adjust margin-top as needed */
+        margin-right: 0; /* Adjust margin-right as needed */
+        height: auto; /* Adjust height as needed */
+    }
+    .tab-contents li {
+        margin-left: 0; /* Adjust margin-left as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .Black {
+        margin-top: 5%; /* Adjust margin-top as needed */
+        margin-left: 10px; /* Adjust margin-left as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    #box-class {
+        width: 90%; /* Adjust width as needed */
+        margin-top: -5%; /* Adjust margin-top as needed */
+        margin-left: 5%; /* Adjust margin-left as needed */
+    }
+    .divide-section {
+        flex-direction: column; /* Adjust flex-direction as needed */
+    }
+    .divident {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+    }
+    .heading-black {
+        margin-top: 5%; /* Adjust margin-top as needed */
+        margin-left: 0; /* Adjust margin-left as needed */
+        text-align: center; /* Adjust text-align as needed */
+        float: none; /* Adjust float as needed */
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    .divident2 {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+    }
+    .divi-btn,
+    .divi-img {
+        margin-top: 10%; /* Adjust margin-top as needed */
+        float: none; /* Adjust float as needed */
+        margin-left: auto; /* Adjust margin-left as needed */
+        margin-right: auto; /* Adjust margin-right as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+}
+
+
+
+/* Media Query for devices with width up to 480px */
+@media (max-width: 480px) {
+    #footer {
+        height: auto; /* Adjust height as needed */
+        margin-top: 0; /* Adjust margin-top as needed */
+        padding-top: 30px; /* Adjust padding-top as needed */
+    }
+    .footer-section,
+    .footer-length {
+        flex-basis: 100%; /* Adjust flex-basis as needed */
+        text-align: center; /* Adjust text-align as needed */
+    }
+    .footer-para,
+    .footer-para-main {
+        margin-top: 10%; /* Adjust margin-top as needed */
+    }
+}
+
+
+
